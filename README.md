@@ -19,5 +19,3 @@ Tutte le funzioni tranne conta e aggiungi sono nel file "zdef.c" per accorciare 
 Le dichiarazioni di alcune variabili globali e di tutte le strutture dati dei vari thread CapoScrittore, CapoLettore e i relativi scrittori e lettori sono scritte nel file "zdef.h"
 
 Nel server per gestire esecuzioni veloci prima che il server e archivio siano inizializzati e pronti all'uso ho utilizzato una try-except globale così da non creare errori quando invio un segnale di kill troppo velocemente prima che sia inizializzato il gestore dei segnali.
-
-provaaaaa
